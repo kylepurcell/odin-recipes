@@ -1,5 +1,21 @@
 /* styles.css */
 
+body {
+    background-color: rgb(165, 202, 252, .5);
+    max-width: 1000px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
 img {
     display: block;
     height: auto;
@@ -8,36 +24,41 @@ img {
     margin-right: auto;
   }
 
-  h1 {
-      text-align: center;
-  }
-
   .main-title {
       font-size: 48px;
   }
 
-  body {
-      background-color: rgb(165, 202, 252, .5);
-      max-width: 1000px;
-      margin: auto;;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 16px;
-  }
-
-  h1,h2,h3,h4 {
-      font-family: 'Times New Roman', Times, serif;
-  }
-
  .home-links {
       font-size: 24px;
-
       text-align: center;
-
-      padding: 20px;
-      
+      padding: 20px; 
+      list-style-type: none;
+      background-color: rgb(165, 202, 252, 0);
   }
 
+  ul {
+      background-color: #74992e;
+      padding:  20px 0px 20px 40px;
+  }
 
+.steps {
+    color:blueviolet;
+}
+
+.steps h2 {
+    background-color: white;
+    text-align: center;
+    padding: 1% 1%;
+}
+
+#mussel-description {
+    text-align: right;
+    color: #ffffff;
+    background-color: black; 
+    padding: 10px 10px 10px 0px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
 
 
 
